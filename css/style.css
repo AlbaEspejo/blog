@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  background: #f2f2f2 !important;
+  font-size: 16px;
+  font-family: "Open Sans", Sans-serif; }
+  body .ad {
+    margin-bottom: 1.25em;
+    text-align: center; }
+  body a {
+    color: #5f6ad4;
+     }
+
+.single_posts {
+  margin-top: 47px; }
+  .single_posts .single_categorias {
+    margin-bottom: 15px; }
+
+header .logo {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em; }
+  header .logo a {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700; }
+header .redes_sociales {
+  line-height: 5em;
+  text-align: right; }
+  header .redes_sociales a {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    display: inline-block;
+    background: navy;
+    color: #fff;
+    margin-left: 1.25em; }
+    header .redes_sociales a.youtube {
+      background: #c05554; }
+    header .redes_sociales a.facebook {
+      background: #3b5998; }
+    header .redes_sociales a.twitter {
+      background: #55acee; }
+header .menu {
+  background: #5f6ad4;
+  margin-bottom: 1.25em; }
+  header .menu ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 auto; }
+    header .menu ul li {
+      float: left;
+      display: inline-block; }
+      header .menu ul li a {
+        color: white;
+        display: inline-block;
+        padding: 1em 1.25em;
+        font-size: 0.87em; }
+        header .menu ul li a:hover {
+          background: #7780da;
+          text-decoration: none; }
+
+.main .titulo_seccion h3, .sidebar .titulo_seccion h3 {
+  font-family: "Oswald", Sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: normal;
+  color: #3b3b3b;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #48b04d;
+  margin-bottom: 1.25em; }
+
+.main .titulo_seccion > div {
+  padding: 0; }
+.main .posts .post {
+  margin-bottom: 1.875em; }
+  .main .posts .post .contenedor {
+    background: white;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.308);
+    margin-bottom: 1.5em; }
+    .main .posts .post .contenedor .thumb img {
+      width: 100%;
+      vertical-align: top;
+      height: auto; }
+    .main .posts .post .contenedor .info {
+      padding: 1.25em; }
+      .main .posts .post .contenedor .info .titulo {
+        margin-top: 0;
+        line-height: 1.125em;
+        margin-bottom: 1.25em;
+        font-size: 1.125em;
+        font-weight: bold; }
+        .main .posts .post .contenedor .info .titulo a {
+          color: #3b3b3b; }
+    .main .posts .post .contenedor .fecha {
+      color: #909090;
+      font-size: 0.875em;
+      margin-bottom: 1.25em; }
+    .main .posts .post .contenedor .extracto {
+      color: #292929;
+      font-size: 1em;
+      height: 8.125em;
+      max-height: 8.125em;
+      line-height: 1.75em;
+      margin-bottom: 1.25em;
+      overflow: hidden; }
+      .main .posts .post .contenedor .extracto:hover {
+        overflow: auto; }
+    .main .posts .post .contenedor .categorias ul {
+      list-style: none; }
+      .main .posts .post .contenedor .categorias ul li {
+        display: inline-block; }
+    .main .posts .post .contenedor .categorias a {
+      color: #909090;
+      font-size: 1em;
+      font-weight: bold;
+      margin-right: 1.25em; }
+      .main .posts .post .contenedor .categorias a:hover {
+        color: #5f6ad4;
+        text-decoration: none; }
+.main .paginacion {
+  justify-content: center;
+  margin-top: -30px; }
+  .main .paginacion li a {
+    color: #909090;
+    font-weight: normal; }
+    .main .paginacion li a:hover {
+      color: #5f6ad4; }
+  .main .paginacion .wp-pagenavi {
+    margin-bottom: 1.25em; }
+    .main .paginacion .wp-pagenavi .pages, .main .paginacion .wp-pagenavi span {
+      background: #3b3b3b;
+      color: white;
+      font-size: 1.125em;
+      margin-right: 0.62em;
+      line-height: 1.125em;
+      padding: 0.62em 0.937em; }
+    .main .paginacion .wp-pagenavi a {
+      background: #5f6ad4;
+      color: white;
+      margin-right: 0.62em;
+      font-size: 1.125em;
+      display: inline-block;
+      padding: 0.62em 0.937em; }
+      .main .paginacion .wp-pagenavi a:hover {
+        background: #7780da;
+        text-decoration: none; }
+
+.sidebar .widget {
+  margin: 2.5em; }
+  .sidebar .widget.redes_sociales {
+    overflow: hidden; }
+    .sidebar .widget.redes_sociales a {
+      width: 32%;
+      color: white;
+      padding: 1.25em;
+      float: left;
+      text-align: center;
+      display: inline-block; }
+      .sidebar .widget.redes_sociales a:hover {
+        text-decoration: none; }
+      .sidebar .widget.redes_sociales a.youtube {
+        margin-right: 2px;
+        background: #cc181e; }
+      .sidebar .widget.redes_sociales a.twitter {
+        background: #00abf0; }
+      .sidebar .widget.redes_sociales a.facebook {
+        background: #3b5998;
+        margin-right: 2px; }
+      .sidebar .widget.redes_sociales a .icono {
+        width: 100%;
+        font-size: 1.875em;
+        margin-bottom: 0.3em; }
+  .sidebar .widget.boletin .formulario {
+    background: #0e2b37;
+    padding: 1.25em;
+    text-align: center; }
+    .sidebar .widget.boletin .formulario label {
+      color: white;
+      margin-bottom: 1.25em;
+      display: block;
+      font-weight: normal; }
+    .sidebar .widget.boletin .formulario input[type="email"] {
+      color: #909090;
+      text-align: center;
+      padding: 0.625em;
+      font-size: 1.125em;
+      border-radius: 3px;
+      width: 100%;
+      border: none;
+      margin-bottom: 1.25em; }
+    .sidebar .widget.boletin .formulario input[type="submit"] {
+      background: #48b04d;
+      border: none;
+      padding: 0.5em 2.5em;
+      text-align: center;
+      border-radius: 3px;
+      color: white; }
+      .sidebar .widget.boletin .formulario input[type="submit"]:hover {
+        background: #3cd744;
+        cursor: pointer; }
+  .sidebar .widget.ad .contenedor_ad {
+    text-align: center; }
+    .sidebar .widget.ad .contenedor_ad a {
+      display: inline-block; }
+      .sidebar .widget.ad .contenedor_ad a img {
+        width: 90%; }
+
+footer .menu {
+  background: #5f6ad4; }
+  footer .menu ul {
+    list-style: none;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0; }
+    footer .menu ul li {
+      float: left;
+      display: inline-block; }
+      footer .menu ul li a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 1em 1.25em;
+        font-size: 0.87em; }
+        footer .menu ul li a:hover {
+          background: #7780da; }
+footer .copyright {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px; }
+
+@media screen and (max-width: 768px) {
+  header .logo {
+    text-align: center; }
+  header .redes_sociales {
+    display: none; }
+  header .menu {
+    width: 100%; }
+    header .menu ul {
+      text-align: center; }
+      header .menu ul li {
+        float: none; }
+
+  .main .posts .post .contenedor .extracto {
+    height: auto; }
+
+  .sidebar {
+    display: none; }
+
+  footer .menu ul {
+    text-align: center; }
+    footer .menu ul li {
+      float: none; } }
+
+/*# sourceMappingURL=style.css.map */

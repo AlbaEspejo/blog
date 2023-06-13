@@ -1,0 +1,33 @@
+
+footer{
+    .menu{
+        background: $azul_primario;
+        ul{
+            list-style: none;
+            overflow: hidden;
+            margin-bottom: 0;
+            margin: 0;
+            padding: 0;
+            li{
+                float: left;
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    display: inline-block;
+                    padding: 1em 1.25em;
+                    font-size: 0.87em;
+                    &:hover{
+                        background: $azul_secundario;
+                    }
+                }
+            }
+            
+        }
+    }
+    .copyright{
+        margin-top: 5px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
